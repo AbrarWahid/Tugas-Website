@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@media screen and (max-width: 768px){
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #d8d8d8;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  padding: 20px 10%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 26px;
+    text-decoration: none;
+    color: rgb(185, 125, 253);
+    font-weight: bold;
+}
+
+.navbar a {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #333;
+    margin: 0 20px;
+    transition: .5s;
+}  
+
+.navbar a:hover {
+    color: rgb(185, 125, 253);
+}
+
+.home {
+    display:inline-flex;
+    align-items: center;
+    height: 90vh;
+    padding: 0 10%;
+}
+
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+ 
+}
+
+.text-section {
+    margin-top: 100px;
+    width: 100%;    
+}
+
+.profile-section {
+    margin-left: 500px; 
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+.home-content h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #333;
+}
+
+.home-content p {
+    font-size: 16px;
+}
+
+.home-content .btn-box { 
+    display: flex; 
+    margin-top: 20px; 
+} 
+
+
+.home-content i {
+    font-size: 20px;
+    color: #ffffff;
+    background-color: rgb(185, 125, 253);
+    padding: 5px;
+    border-radius: 20%;
+    margin-right: 5px;
+    transition: .5s; 
+}
+
+.home-content i:hover {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.home-content .btn-box a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    padding: 10px 20px;
+}
+
+.project{
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    padding: 0 12%;
+    margin-top: 100px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(185, 125, 253);
+}
+
+.project h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.box {
+    height: 0%;
+    width: 32%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.box:hover {
+    transform: translateY(-20px);
+}
+
+.content {
+    text-align: center;
+}
+
+.content img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: .5s;
+
+}
+
+.content img:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.content h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.content a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+    display: block;
+}
+
+.skills {
+    text-align: center;
+    justify-content: space-between;
+    height: auto;
+    background-color: #ececec;
+    padding: 20px;
+}
+
+.skills h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.skills-box-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.skills-box {
+    height: 0%;
+    width: 32%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.skills-content i{
+    font-size: 40px;
+    color: rgb(185, 125, 253);
+    margin: 0 10px;
+    transition: .5s;
+}
+
+.footer {
+    padding: 0 10%;
+}
